@@ -1,0 +1,22 @@
+{
+  "name": "electron-symfony",
+  "version": "0.1.0",
+  "description": "Electron + Symfony",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "build": "electron-packager"
+  },
+  "keywords": [
+    "Electron",
+    "Symfony",
+    "php"
+  ],
+  "author": "moulaye.c@gmail.fr",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^10.1.4",
+    "electron-packager": "^15.1.0",
+    "gulp-connect-php": "^1.0.3"
+  }
+}
